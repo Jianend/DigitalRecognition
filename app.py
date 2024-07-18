@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask import Flask, render_template
-from shiymod import predict_digit_from_array
+from mod import predict_digit_from_array
 app = Flask(__name__, static_folder="static")
 
 

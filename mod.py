@@ -3,7 +3,7 @@ from sz import Net
 
 # 定义和加载模型
 model = Net()
-model.load_state_dict(torch.load('xunian.pth'))
+model.load_state_dict(torch.load('mod.pth'))
 model.eval()
 
 # 定义转换
