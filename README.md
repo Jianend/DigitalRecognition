@@ -40,3 +40,9 @@
 - Node.js 和 npm
 - Python (用于模型训练脚本)
 
+### 安装
+
+```bash
+git clone https://github.com/Jianend/DigitalRecognition.git
+cd DigitalRecognition.git
+npm install
