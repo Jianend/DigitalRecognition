@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>28x28 Grid</title>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(28, 1fr);
+        gap: 0px;
+        width: 280px; /* 28 cells * 10px each */
+    }
+    .cell {
+        height: 10px;
+        background-color: white;
+        border: 1px solid lightgray;
+        /* 无间隔 */
+        margin: 0;
+
+        
+        
+    }
+</style>
+</head>
+<body>
+<div id="grid" class="grid-container"></div>
+<div id="result"></div>
+<div> <button onclick="SendArray()">开始识别</button> </div>
+<div> <button onclick="empty()">清空</button> </div>
+<script src="../static/script.js"></script>
+</body>
+</html>
