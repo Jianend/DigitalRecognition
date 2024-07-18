@@ -29,15 +29,11 @@
 ## 技术栈
 
 - **前端**: HTML5, CSS3, JavaScript, React.js
-- **后端**: Node.js, Express.js
-- **模型训练**: TensorFlow.js
-- **数据库**: MongoDB (可选，用于存储用户提交的数字及其预测结果)
+- **后端**: python, Flask,
 
 ## 安装与运行
 
 ### 前提条件
-
-- Node.js 和 npm
 - Python (用于模型训练脚本)
 
 ### 安装
@@ -45,4 +41,4 @@
 ```bash
 git clone https://github.com/Jianend/DigitalRecognition.git
 cd DigitalRecognition.git
-npm install
+python app.py
